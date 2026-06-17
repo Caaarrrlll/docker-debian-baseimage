@@ -1,7 +1,7 @@
 FROM debian:trixie-slim
 
 LABEL org.opencontainers.image.authors="venter109@gmail.com"
-LABEL org.opencontainers.image.source="https://github.com/Caaarrrlll/docker-debian-baseimage"
+LABEL org.opencontainers.image.source="https://github.com/Caaarrrlll/debian-slim-baseimage"
 LABEL org.opencontainers.image.licenses="MIT"
 
 RUN  echo "deb http://deb.debian.org/debian trixie contrib non-free non-free-firmware" >> /etc/apt/sources.list && \
